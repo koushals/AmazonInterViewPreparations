@@ -1,0 +1,47 @@
+
+Write test cases for,
+
+Testing a API , which takes URL as input which points to a html page,
+finds a specific TAG and extracts all integers between the tags,
+sorts the numbers in ascending order and writes it to a file
+
+Questions:
+what type of call is the api performing ?
+do you want me to write a program for the ascending order function ?
+does the integers have both positive and negative values ?
+can i have duplicate numbers ?
+
+Test cases:
+There are three part in this application
+1 proper api call.
+2 proper html landing page.
+3 sorting the values.
+
+normal case: every thing working as expected.
+
+1 proper api call.
+    api returns a 200 ok.
+    api returns a 400 bad request.
+        this is because of bad url
+        authentication failed.
+        service issue.
+    api returns a 502 error.
+        bad request body
+        bad headers are given.
+        no internet
+
+2 proper html landing page.
+    issue in loading html page
+    tag not found
+    multiple tags are received.
+    tag having mixture of data
+    tag is having no data
+    tag having duplicates in the data
+    tag with invalid data
+
+3 sorting the values.
+    array of integers are same
+    array of integers is null
+    array of integers are normal positive
+    array of integers are normal native
+
