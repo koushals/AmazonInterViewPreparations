@@ -1,0 +1,30 @@
+Test cases for Pen Drive:
+
+Features:
+Functional test cases:
+type of data that is supported
+size of the pen drive
+transfer data to pen drive
+transfer data from pen drive
+deleting files
+eject process of the pen drive
+directly removing the pen drive
+renaming pendrive name
+set password
+connectivity using multiple OS
+maximum usage of capacity
+
+Security Test Cases:
+memory leak
+loose connection
+
+Hardware:
+type of usb
+transfer speed w.r.t read and write
+transfer speed on multiple files w.r.t read and writing.
+
+
+
+
+
+
