@@ -1,0 +1,26 @@
+Feature: zip and unzip files
+
+  Scenario: user want to zip a file
+  Scenario: user want to unzip a file
+  Scenario: tool will allow a specific size
+  Scenario: user wants to to set a password
+  Scenario: user wants to rename the file
+  Scenario: user tries to zip the file on one OS and unzip in Other OS
+  Scenario: User wants to send the file via email
+  Scenario: user will tries to install the tool
+  Scenario: user tries to reopen the zip file twice without closing the first session
+  Scenario: user will zip multiple file formates
+  Scenario: user should create a two zip files and check the space that is take
+  Scenario: check if unzip have the same file and content
+  Scenario: zip and empty folder
+  Scenario: unzip a empty zip file
+
+#  non-functional
+  Scenario: system have no space
+  Scenario: user trying to zip a very large file
+  Scenario: user trying to zip multiple file into one zip file
+  Scenario: user trying to unzip multiple file into system.
+  Scenario: user trying to zip one file into multiple zip files
+  Scenario: system will kill the process after zip or unzip the file
+  Scenario: user set password for the zip file
+  Scenario: OS and version Compatibility.

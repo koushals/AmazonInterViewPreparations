@@ -1,0 +1,44 @@
+Feature: write test cases for a game on pc and mobile device and you can play that game on pc and pause it on pc and again resume this game on mobile.
+
+
+  Background: is the game compatible with both android and ios
+  Background: does the game have multi player feature
+  Background: is it a first person game or second person game
+  Background: how long does the server hold when you pause the game
+  Background: how many devices can i login at once
+
+
+Feature: Player related test cases
+
+  Scenario: install the game in pc mobile -ios and android
+  Scenario: play the game for happy path in pc
+  Scenario: play the game for happy path in mobile
+  Scenario: players has started the game
+  Scenario: players has ended the game
+  Scenario: players has paused the game
+  Scenario: players has resumed the game
+  Scenario: players has viewed the options
+  Scenario: players can change the settings
+  Scenario: players has to create a new account
+  Scenario: players has to login to the game
+  Scenario: player get an error while playing without internet
+  Scenario: player is playing on mobile data
+  Scenario: player is playing mobile hot spot on PC
+
+#  compatible Feature:
+
+  Scenario: game is installed on both mobile and pc
+  Scenario: player switched device between the game
+  Scenario: player trying to play on two devices at the same time
+  Scenario: player is using different tools on PC like - keyboard, JoyStick, etc
+  Scenario: there is an wifi issue in the house and game stopped on pc
+  Scenario: player forgot to resume the game on other device
+  Scenario: player forgot to resume the game on other device
+  Scenario: player has connected to maxminum number of devices
+  Scenario: player logged out from mobile and playing on pc and vice versa
+  Scenario: player logged out from all the devices
+  Scenario: player should see all the changes in settings between devices
+  Scenario: player should revice push notifications on mobile
+  Scenario: player should see all the resources on all devices
+  Scenario: player received all call while playing the game and switched to pc
+  Scenario: player phone switched off between the game and switched to pc
